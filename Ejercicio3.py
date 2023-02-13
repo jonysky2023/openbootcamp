@@ -1,0 +1,6 @@
+peso = input("Escriba su peso en Kg:")
+centimetros = input("Escriba su altura en cm:")
+altura = (float(centimetros) * 0.01)
+print("Su peso es de:", (peso),"Kg. y su altura es de:", "{:.2f}".format(altura),"m")
+masa = round(float(peso)/float(altura)**2,2)
+print("Su masa corporal es:",str(masa))
