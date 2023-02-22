@@ -21,12 +21,12 @@ class vehiculo:
 v1 = vehiculo("Hyundai", "I30", 110)
 
 #Creamos variable para Crear fichero y generamos el fichero .bin
-f = open("vehiculo.bin", "wb")
+f = open("vehiculo.py", "wb")
 pickle.dump(v1, f)
 f.close()
 
 #llamamos al fichero .bin y cargamos una variable con las propiedades del objeto
-f = open("vehiculo.bin", "rb")
+f = open("vehiculo.py", "rb")
 coche = pickle.load(f)
 f.close()
 
