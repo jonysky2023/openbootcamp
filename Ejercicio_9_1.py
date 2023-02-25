@@ -12,4 +12,4 @@ while preguntarañadir == "Y" or preguntarañadir == "y":
     preguntarañadir = input("desea agregar mas paises? Y/N")
 
 unicos = list(set(paises))
-print(unicos)
+print(sorted(unicos))
